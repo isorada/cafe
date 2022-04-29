@@ -1,0 +1,331 @@
+
+body, html {background-color:#191919; color:white; font-style:oblique; scroll-behavior: smooth;}
+/* HDIV */
+#header_id1
+{
+    position:relative;
+    padding:0;
+    margin:0;
+}
+#backgroundImg_id1
+{
+    height:670px;
+    width: 100%;
+    border-radius: 5px;
+    position:relative;
+    object-fit:cover;
+    background-size:100%;
+    background-repeat:no-repeat;
+    background-image:url('.././misc/imgs/bgs/pnc.jpg');
+}
+#logo_id1
+{
+    position:absolute;
+}
+#img_id1
+{
+    height:120px;
+    object-fit:cover;
+    position:absolute;
+}
+#prev_id1
+{
+    position:relative;
+}
+#h3_id1
+{
+    left: 50%;
+    margin-top: 20%;
+    position:absolute;
+    color:white;
+}
+#prevImg_id1
+{
+    left: 47%;
+    margin-top: 23%;
+    border-radius:100px;
+    position:absolute;
+    object-fit:cover;
+    height:150px;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+
+/* CDIV */
+#container_id1
+{
+    height:250px;
+    position: relative;
+}
+#background_id1
+{
+    height:250px;
+    width: 100%;
+    border-radius:7px;
+    position:absolute;
+    background-size: 100%;
+    background-image:linear-gradient(to right,rgb(156, 152, 152),gray,rgb(19, 18, 18));
+    text-align: center;
+}
+#aTitle_id1
+{
+    color:orange;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#desc_id1
+{
+    color:white;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#aButton_id1
+{
+    width:100px;
+    height:50px;
+    border-radius: 5px;
+    color:white;
+    background-color:orange;
+}
+#scDiv
+{
+    position:relative;
+}
+#slideshow_container
+{
+    height:1000px;
+    width: 100%;
+    border-radius:7px;
+    object-fit:cover;
+    position:relative;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+#prev, #next 
+{
+    cursor: pointer;
+    position: absolute;
+    width: auto;
+    margin-top: 30%;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+#prev
+{
+    left:0;
+}
+#next 
+{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+#prev:hover, #next:hover 
+{
+    background-color: rgba(0,0,0,0.8);
+}
+#menu_id1
+{
+    height:350px;
+    width:100%;
+    background-size:100%;
+    background-image:linear-gradient(to right,rgb(156, 152, 152),gray,rgb(19, 18, 18));
+    text-align: center;
+}
+#mButton
+{
+    margin-top:8%;
+}
+@media screen and (max-width: 1920px) {
+    #header_id1
+    {
+        position:relative;
+        padding:0;
+        margin:0;
+        width: 100%;
+        height: 100%;
+    }    
+    #backgroundImg_id1
+    {
+        height: 891px;
+        width: 100%;
+        border-radius: 5px;
+        position:relative;
+        object-fit:fill;
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-image:url('.././misc/imgs/bgs/pnc.jpg');
+    }
+    #img_id1
+    {
+        height:120px;
+        object-fit:cover;
+        position:absolute;
+    }
+    #h1_id
+    {
+        color:orange;
+        left: 50%;
+        margin-top: 33%;
+        position:absolute;
+    }
+    #h3_id1
+    {
+        left: 48%;
+        margin-top: 21%;
+        position:absolute;
+    }
+    #prevImg_id1
+    {
+        left: 44%;
+        margin-top: 27%;
+        border-radius:100px;
+        position:absolute;
+        object-fit:cover;
+        height:190px;
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+}
+@media screen and (max-width: 1680px) {
+    #h3_id1
+    {
+        left: 51%;
+        margin-top: 23%;
+        position:absolute;
+        color:white;
+    }
+    #prevImg_id1
+    {
+        left: 47%;
+        margin-top: 27%;
+        border-radius:100px;
+        position:absolute;
+        object-fit:cover;
+        height:150px;
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+}
+@media screen and (max-width: 1280px) {
+    #backgroundImg_id1
+    {
+        height:591px;
+        width: 100%;
+        border-radius: 5px;
+        position:relative;
+        object-fit:cover;
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-image:url('.././misc/imgs/bgs/pnc.jpg');
+    }
+    #h1_id
+    {
+        left: 46%;
+        margin-top:28%;
+    }
+    #h3_id1
+    {
+        left: 44%;
+        margin-top: 31%;
+        position:absolute;
+        color:white;
+    }
+    #prevImg_id1
+    {
+        left: 44%;
+        margin-top: 35%;
+        border-radius:100px;
+        position:absolute;
+        object-fit:cover;
+        height:150px;
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+    #prev, #next 
+    {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin-top: 40%;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+}
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+    #backgroundImg_id1
+    {
+        height:221px;
+        width: 100%;
+        border-radius: 5px;
+        position:relative;
+        object-fit:cover;
+        background-size:100%;
+        background-repeat:no-repeat;
+        background-image:url('.././misc/imgs/bgs/pnc.jpg');
+    }
+    #img_id1
+    {
+        height:40px;
+        object-fit:cover;
+        position:absolute;
+    }
+    #h3_id1
+    {
+        left: 47%;
+        margin-top: 25%;
+        position:absolute;
+        color:white;
+    }
+    #prevImg_id1
+    {
+        left: 45%;
+        margin-top: 31.1%;
+        border-radius:100px;
+        position:absolute;
+        object-fit:cover;
+        height:75px;
+        background-size:100%;
+        background-repeat:no-repeat;
+    }
+    #h1_id
+    {
+        color:orange;
+        left: 46%;
+        margin-top: 20%;
+        position:absolute;
+        font-size: 20px;
+    }
+    #h3_id1
+    {
+        left: 43%;
+        margin-top: 26%;
+        position:absolute;
+        font-size: 10px;
+    }
+    #prev, #next 
+    {
+        cursor: pointer;
+        position: absolute;
+        width: auto;
+        margin-top: 90%;
+        padding: 16px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+}
+@media screen and (min-width: 540px) and (max-width: 780px) {
+
+}
