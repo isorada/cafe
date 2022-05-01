@@ -2,6 +2,7 @@
 //h1-3
 export const h1=document.createElement("h1");
 export const h1_1=document.createElement("h1");
+export const h1_2=document.createElement("h1");
 export const h2=document.createElement("h2");
 export const h3=document.createElement("h3");
 

@@ -19,11 +19,11 @@ export default async function hdiv() {
     logo.id="logo"
     logo.src="./src/logo/logo.png"
     //
-    div1.append(logo,button1,button2,button3,h1);
+    div1.append(logo);
 document.body.append(div1);
 }
 
 logo.onclick=async function(){ document.location.href="" }
 button1.onclick=async function(){ document.location.href="" }
 button2.onclick=async function(){ document.location.href="" }
-button3.onclick=async function(){ document.location.href="" }
+button3.onclick=async function(){ document.location.href="./menu/index.html" }
