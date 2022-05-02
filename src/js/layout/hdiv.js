@@ -1,7 +1,7 @@
-import {div1, div2, div3} from '../package/hPackage.js'
-import {logo, img1} from '../package/hPackage.js'
-import {h1} from '../package/hPackage.js'
-import {button1, button2, button3} from '../package/hPackage.js'
+import {div1, div2, div3} from '../../../menu/src/js/package/hPackage.js'
+import {logo, img1} from '../../../menu/src/js/package/hPackage.js'
+import {h1} from '../../../menu/src/js/package/hPackage.js'
+import {button1, button2, button3} from '../../../menu/src/js/package/hPackage.js'
 
 export default async function hdiv() {
     div1.id="hdiv1"

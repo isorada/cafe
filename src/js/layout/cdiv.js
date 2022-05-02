@@ -1,8 +1,8 @@
-import {div1, div2, div3, h1_2} from '../package/cPackage.js'
-import {h1, h1_1} from '../package/cPackage.js'
-import {button1, button2} from '../package/cPackage.js'
-import { img1, img2, img3 } from '../package/cPackage.js'
-import { p1, p2, p3 } from '../package/cPackage.js'
+import {div1, div2, div3, h1_2} from '../../../menu/src/js/package/cPackage.js'
+import {h1, h1_1} from '../../../menu/src/js/package/cPackage.js'
+import {button1, button2} from '../../../menu/src/js/package/cPackage.js'
+import { img1, img2, img3 } from '../../../menu/src/js/package/cPackage.js'
+import { p1, p2, p3 } from '../../../menu/src/js/package/cPackage.js'
 
 export default async function cdiv() {
 div1.id="cdiv1"
