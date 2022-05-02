@@ -25,7 +25,7 @@ div2.append(img2,h1_1)
     //
 div3.id="cdiv3"
     h1_2.id="lasth1"
-    h1_2.innerHTML="ABOUT"
+    h1_2.innerHTML="Rating/Feedbacks"
     img3.id="lastimg"
     img3.src="https://images8.alphacoders.com/379/thumb-1920-379377.png"
 div3.append(img3,h1_2)
@@ -33,5 +33,5 @@ document.body.append(div1,div2,div3);
 }
 
 img1.onclick=async function(){ document.location.href="./menu/index.html" }
-img2.onclick=async function(){ document.location.href="./faqs/index.html" }
+img2.onclick=async function(){ document.location.href="./feedback/index.html" }
 img3.onclick=async function(){ document.location.href="./about/index.html" }

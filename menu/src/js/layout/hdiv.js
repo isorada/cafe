@@ -11,12 +11,16 @@ export default async function hdiv() {
         div2.id="hdiv2"
             h1.id="divh1"
             h1.innerHTML="HELLO WORLD"
-        div2.append(h1)
+            img2.id="img1"
+            img2.src="https://images4.alphacoders.com/863/thumbbig-863095.webp"
+        div2.append(img2,h1)
             //
         div3.id="hdiv3"
             h1_1.id="divh1_2"
             h1_1.innerHTML="HELLO WORLD2"
-        div3.append(h1_1)
+            img3.id="img2"
+            img3.src="https://images3.alphacoders.com/276/thumbbig-276785.webp"
+        div3.append(img3,h1_1)
     div1.append(img1,div2, div3)
         //
     div4.id="hdiv4"
@@ -31,7 +35,6 @@ export default async function hdiv() {
         div6.append()
             //
         div7.id="hdiv7"
-            img3.src="https://yt3.ggpht.com/nDTo1trLwi1nZPTqS4RjsuC1B2V920Z9jQvrwrlOWqmALdQWLK0FD-OTh2U9o49-16hHrD3N=s48-c-k-c0x00ffffff-no-rj"
             h1_3.id="divh1_4"
             h1_3.innerHTML="HELLO WORLD4"
         div7.append(h1_3)

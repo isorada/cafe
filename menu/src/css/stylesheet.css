@@ -11,17 +11,25 @@ body, html
     #logo
     { left:35%; top:30px; position:absolute; display: inline; width:550px; height:190px; }
     #divh1     
-    { position:relative;text-align:right; }
+    { position:relative; text-align:center; }
     #divh1_2
-    { position:relative; text-align:right; }
+    { position:relative; text-align:center; }
+    #img1
+    { width:400px; height:250px; border-radius:10px; position:relative; }
+    #img2
+    { width:400px; height:250px; border-radius:10px; position:relative; }
 
+    /* H */
 
     #hdiv1
     { position:relative; width:100%; height:100vh; }
     #hdiv2
-    { top:32%; left:5%; width:40%; height:500px;  position:relative; display:inline-block; border-radius:10px; background-color:rgb(5, 8, 145); }
+    { top:32%; left:5%; width:40%; height:500px;  position:relative; display:inline-block; border-radius:10px;  }
     #hdiv3
-    { top:32%; left:15%; width:40%; height:500px;  position:relative; display:inline-block; border-radius:10px; background-color:rgb(5, 8, 145); }
+    { top:32%; left:15%; width:40%; height:500px;  position:relative; display:inline-block; border-radius:10px; }
+    
+    /* Center */
+    
     #hdiv4
     { width:100%; height:100vh; position:relative; }
     #hdiv5
